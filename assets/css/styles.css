@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: lightgray;
 }
 
 .navbar-brand {
@@ -10,4 +10,21 @@ body {
 
 #bs-example-navbar-collapse-1 {
     background-color: white;
+}
+
+article {
+    background-color: white;
+}
+
+h1, h2 {
+    color: teal;
+}
+
+#chart-image {
+    float: left;
+    width: 80%;
+}
+
+#image-photo {
+    width: 45%;
 }

@@ -53,10 +53,40 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    <h1>Index!</h1>
+   <div class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article>
+        <h1 class="Main-Header">Summary: Latitude vs X</h1>
+        <hr>
+        <img src="assets/images/Fig1.png" id="chart-image">
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. <br> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included:  temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends an correlations.</p>
+      </article>
+      </div>
           <!-- Start of Visualizations imageNav Area -->
+          <div class="col-md-4">
+            <article>
+            <div class="visualizations">
+              <h2 class="visualization-header">Visualizations</h2>
+              <p>Click any plot to get an in-depth analysis</p>
+
+              <hr>
+              <div id="viz-images">
+                <a href="visualizations/temp.html"><img src="assets/images/Fig1.png" id="image-photo"></a>
+                <a href="visualizations/humidity.html"><img src="assets/images/Fig2.png" id="image-photo"></a>
+                <a href="visualizations/cloudiness.html"><img src="assets/images/Fig3.png" id="image-photo"></a>
+                <a href="visualizations/wind.html"><img src="assets/images/Fig4.png" id="image-photo"></a>
+              </div>
+            </div>
+          </article>
+          </div>
           <!-- End of the Visualizations imageNav Area -->
     <!-- End of container -->
+    </section>
+
+
+   </div>
+
 
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
