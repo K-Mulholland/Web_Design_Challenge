@@ -1,0 +1,13 @@
+body {
+    background-color: antiquewhite;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    background-color: teal;
+
+}
+
+#bs-example-navbar-collapse-1 {
+    background-color: white;
+}
