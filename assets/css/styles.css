@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: rgb(249, 246, 246);
 }
 
 .navbar-brand {
@@ -27,4 +27,8 @@ h1, h2 {
 
 #image-photo {
     width: 45%;
+}
+
+#viz-image {
+    width: 100%;
 }
