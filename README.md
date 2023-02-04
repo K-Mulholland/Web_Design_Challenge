@@ -1,7 +1,4 @@
-# Unit 11 Homework: Web Visualization Dashboard
+Here is an analysis of how weather changes as you get closer to the equator.  To accomplish this analysis, data was pulled from the OpenWeatherMap API to assemble a dataset on over 500 cities.
 
-The homework instructions and requirements are located [here](../../08-Canvas/11-Web/02-Application/02-challenge.md).
+After assembling the dataset, Matplotlib was used to plot various aspects of the weather vs. latitude.  Factors examined included:  temperature, cloudiness, wind speed, and humidity.
 
-- - -
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
